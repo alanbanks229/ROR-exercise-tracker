@@ -8,9 +8,7 @@ Rails.application.routes.draw do
   # "xyz" where "xyz"_controller
   get 'about', to: 'static#about'
 
-  # this allows route /exercises
-  get 'exercises', to: 'exercise#index'
 
   # this allows route /exercise
-  resources :exercise, only: [:index]
+  resources :exercises, only: [:index, :new, :show, :create]
 end
