@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+This app is solely for the purposes of getting a refresher with ROR
